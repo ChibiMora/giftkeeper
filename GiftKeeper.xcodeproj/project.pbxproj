@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6C170EC1C57EA6000B26829 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C170EB1C57EA6000B26829 /* AppDelegate.swift */; };
+		F6C170EE1C57EA6000B26829 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C170ED1C57EA6000B26829 /* ViewController.swift */; };
+		F6C170F11C57EA6000B26829 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6C170EF1C57EA6000B26829 /* Main.storyboard */; };
+		F6C170F41C57EA6000B26829 /* GiftKeeper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F6C170F21C57EA6000B26829 /* GiftKeeper.xcdatamodeld */; };
+		F6C170F61C57EA6000B26829 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6C170F51C57EA6000B26829 /* Assets.xcassets */; };
+		F6C170F91C57EA6000B26829 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6C170F71C57EA6000B26829 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F6C170E81C57EA6000B26829 /* GiftKeeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GiftKeeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6C170EB1C57EA6000B26829 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F6C170ED1C57EA6000B26829 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F6C170F01C57EA6000B26829 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6C170F31C57EA6000B26829 /* GiftKeeper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GiftKeeper.xcdatamodel; sourceTree = "<group>"; };
+		F6C170F51C57EA6000B26829 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6C170F81C57EA6000B26829 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6C170FA1C57EA6000B26829 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6C170E51C57EA6000B26829 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6C170DF1C57EA5F00B26829 = {
+			isa = PBXGroup;
+			children = (
+				F6C170EA1C57EA6000B26829 /* GiftKeeper */,
+				F6C170E91C57EA6000B26829 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6C170E91C57EA6000B26829 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6C170E81C57EA6000B26829 /* GiftKeeper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6C170EA1C57EA6000B26829 /* GiftKeeper */ = {
+			isa = PBXGroup;
+			children = (
+				F6C170EB1C57EA6000B26829 /* AppDelegate.swift */,
+				F6C170ED1C57EA6000B26829 /* ViewController.swift */,
+				F6C170EF1C57EA6000B26829 /* Main.storyboard */,
+				F6C170F51C57EA6000B26829 /* Assets.xcassets */,
+				F6C170F71C57EA6000B26829 /* LaunchScreen.storyboard */,
+				F6C170FA1C57EA6000B26829 /* Info.plist */,
+				F6C170F21C57EA6000B26829 /* GiftKeeper.xcdatamodeld */,
+			);
+			path = GiftKeeper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6C170E71C57EA6000B26829 /* GiftKeeper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6C171081C57EA6000B26829 /* Build configuration list for PBXNativeTarget "GiftKeeper" */;
+			buildPhases = (
+				F6C170E41C57EA6000B26829 /* Sources */,
+				F6C170E51C57EA6000B26829 /* Frameworks */,
+				F6C170E61C57EA6000B26829 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GiftKeeper;
+			productName = GiftKeeper;
+			productReference = F6C170E81C57EA6000B26829 /* GiftKeeper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6C170E01C57EA6000B26829 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Crystal Mora";
+				TargetAttributes = {
+					F6C170E71C57EA6000B26829 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = F6C170E31C57EA6000B26829 /* Build configuration list for PBXProject "GiftKeeper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6C170DF1C57EA5F00B26829;
+			productRefGroup = F6C170E91C57EA6000B26829 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6C170E71C57EA6000B26829 /* GiftKeeper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6C170E61C57EA6000B26829 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6C170F91C57EA6000B26829 /* LaunchScreen.storyboard in Resources */,
+				F6C170F61C57EA6000B26829 /* Assets.xcassets in Resources */,
+				F6C170F11C57EA6000B26829 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6C170E41C57EA6000B26829 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6C170F41C57EA6000B26829 /* GiftKeeper.xcdatamodeld in Sources */,
+				F6C170EE1C57EA6000B26829 /* ViewController.swift in Sources */,
+				F6C170EC1C57EA6000B26829 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F6C170EF1C57EA6000B26829 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6C170F01C57EA6000B26829 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6C170F71C57EA6000B26829 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6C170F81C57EA6000B26829 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6C171061C57EA6000B26829 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6C171071C57EA6000B26829 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6C171091C57EA6000B26829 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GiftKeeper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crystalmora.GiftKeeper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F6C1710A1C57EA6000B26829 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GiftKeeper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crystalmora.GiftKeeper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6C170E31C57EA6000B26829 /* Build configuration list for PBXProject "GiftKeeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6C171061C57EA6000B26829 /* Debug */,
+				F6C171071C57EA6000B26829 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6C171081C57EA6000B26829 /* Build configuration list for PBXNativeTarget "GiftKeeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6C171091C57EA6000B26829 /* Debug */,
+				F6C1710A1C57EA6000B26829 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F6C170F21C57EA6000B26829 /* GiftKeeper.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F6C170F31C57EA6000B26829 /* GiftKeeper.xcdatamodel */,
+			);
+			currentVersion = F6C170F31C57EA6000B26829 /* GiftKeeper.xcdatamodel */;
+			path = GiftKeeper.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F6C170E01C57EA6000B26829 /* Project object */;
+}
