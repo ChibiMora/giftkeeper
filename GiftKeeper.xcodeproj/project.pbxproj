@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F60BEF0A1C8D1210002D5242 /* TempImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F60BEF091C8D1210002D5242 /* TempImages.xcassets */; };
+		F60BEF0D1C8D16F9002D5242 /* MixedGroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60BEF0C1C8D16F9002D5242 /* MixedGroupsViewController.swift */; };
 		F6C170EC1C57EA6000B26829 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C170EB1C57EA6000B26829 /* AppDelegate.swift */; };
-		F6C170EE1C57EA6000B26829 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C170ED1C57EA6000B26829 /* ViewController.swift */; };
 		F6C170F11C57EA6000B26829 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6C170EF1C57EA6000B26829 /* Main.storyboard */; };
 		F6C170F41C57EA6000B26829 /* GiftKeeper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F6C170F21C57EA6000B26829 /* GiftKeeper.xcdatamodeld */; };
 		F6C170F61C57EA6000B26829 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6C170F51C57EA6000B26829 /* Assets.xcassets */; };
@@ -16,9 +17,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F60BEF091C8D1210002D5242 /* TempImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = TempImages.xcassets; sourceTree = "<group>"; };
+		F60BEF0C1C8D16F9002D5242 /* MixedGroupsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MixedGroupsViewController.swift; sourceTree = "<group>"; };
 		F6C170E81C57EA6000B26829 /* GiftKeeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GiftKeeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6C170EB1C57EA6000B26829 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F6C170ED1C57EA6000B26829 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F6C170F01C57EA6000B26829 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F6C170F31C57EA6000B26829 /* GiftKeeper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GiftKeeper.xcdatamodel; sourceTree = "<group>"; };
 		F6C170F51C57EA6000B26829 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F60BEF0B1C8D16BB002D5242 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F60BEF0C1C8D16F9002D5242 /* MixedGroupsViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 		F6C170DF1C57EA5F00B26829 = {
 			isa = PBXGroup;
 			children = (
@@ -56,10 +66,11 @@
 		F6C170EA1C57EA6000B26829 /* GiftKeeper */ = {
 			isa = PBXGroup;
 			children = (
+				F60BEF0B1C8D16BB002D5242 /* ViewControllers */,
 				F6C170EB1C57EA6000B26829 /* AppDelegate.swift */,
-				F6C170ED1C57EA6000B26829 /* ViewController.swift */,
 				F6C170EF1C57EA6000B26829 /* Main.storyboard */,
 				F6C170F51C57EA6000B26829 /* Assets.xcassets */,
+				F60BEF091C8D1210002D5242 /* TempImages.xcassets */,
 				F6C170F71C57EA6000B26829 /* LaunchScreen.storyboard */,
 				F6C170FA1C57EA6000B26829 /* Info.plist */,
 				F6C170F21C57EA6000B26829 /* GiftKeeper.xcdatamodeld */,
@@ -128,6 +139,7 @@
 				F6C170F91C57EA6000B26829 /* LaunchScreen.storyboard in Resources */,
 				F6C170F61C57EA6000B26829 /* Assets.xcassets in Resources */,
 				F6C170F11C57EA6000B26829 /* Main.storyboard in Resources */,
+				F60BEF0A1C8D1210002D5242 /* TempImages.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +150,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F60BEF0D1C8D16F9002D5242 /* MixedGroupsViewController.swift in Sources */,
 				F6C170F41C57EA6000B26829 /* GiftKeeper.xcdatamodeld in Sources */,
-				F6C170EE1C57EA6000B26829 /* ViewController.swift in Sources */,
 				F6C170EC1C57EA6000B26829 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
