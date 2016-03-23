@@ -22,11 +22,11 @@
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Group" rowHeight="67" id="U4c-a9-S2p" userLabel="Group Cell">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Group" rowHeight="67" id="U4c-a9-S2p" userLabel="Group Cell" customClass="GroupTableViewCell" customModule="GiftKeeper" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="92" width="600" height="67"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="U4c-a9-S2p" id="Ov3-Bq-hVk">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="66"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="567" height="66"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="groupIcon" translatesAutoresizingMaskIntoConstraints="NO" id="Yjp-FH-jjp" userLabel="Group Icon">
@@ -36,7 +36,7 @@
                                                         <constraint firstAttribute="width" constant="40" id="tAA-D4-4H8"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BbY-k5-RR5" userLabel="Group Name">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BbY-k5-RR5" userLabel="Group Name">
                                                     <rect key="frame" x="63" y="22" width="524" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -52,8 +52,13 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <outlet property="groupImage" destination="Yjp-FH-jjp" id="V7b-Dh-8py"/>
+                                            <outlet property="groupLabel" destination="BbY-k5-RR5" id="Is7-QC-wvx"/>
+                                            <segue destination="NV4-7C-WAn" kind="push" id="8nT-hp-oqf"/>
+                                        </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Person" rowHeight="67" id="YwW-aj-0Ai" userLabel="Person Cell">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Person" rowHeight="67" id="YwW-aj-0Ai" userLabel="Person Cell" customClass="PersonTableViewCell" customModule="GiftKeeper" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="159" width="600" height="67"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="YwW-aj-0Ai" id="ZUR-gE-li5">
@@ -61,7 +66,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nkf-vR-bgj" userLabel="Person Name">
-                                                    <rect key="frame" x="63" y="22" width="532" height="21"/>
+                                                    <rect key="frame" x="63" y="23" width="532" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -83,6 +88,10 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="1" green="0.28271484375" blue="0.10454358552631579" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <outlet property="personImage" destination="jm5-q0-lJe" id="AVM-uo-jyz"/>
+                                            <outlet property="personLabel" destination="Nkf-vR-bgj" id="DMg-ft-PzA"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -112,10 +121,29 @@
             </objects>
             <point key="canvasLocation" x="-569" y="-615"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="BD2-rQ-h7c">
+            <objects>
+                <viewController id="NV4-7C-WAn" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Zvc-Zj-pfy"/>
+                        <viewControllerLayoutGuide type="bottom" id="657-4y-aCP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ifm-mW-D9E">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="3fz-W9-PEi"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vr1-0B-4rf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="79" y="-616"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="pTO-N9-y6y">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="3Zp-to-dLy" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="3Zp-to-dLy" customClass="GKNavigationController" customModule="GiftKeeper" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Kxv-33-fkc">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>

@@ -10,6 +10,7 @@ import UIKit
 
 class MixedGroupsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     @IBOutlet weak var tableView: UITableView!
+   
     
     private let groupCellIdentifier = "Group"
     private let personCellIdentifier = "Person"
@@ -44,7 +45,16 @@ class MixedGroupsViewController: UIViewController, UITableViewDelegate, UITableV
         }
         
         if let cell = tableView.dequeueReusableCellWithIdentifier(identifier) {
-            return cell
+            if let groupCell = cell as? GroupTableViewCell {
+                groupCell.groupLabel.text = "Game Night"
+                groupCell.groupImage.image = UIImage(named:"squirrel")
+                
+                return groupCell
+            } else if let personCell = cell as? PersonTableViewCell {
+                personCell.personLabel.text = "Me" 
+                
+                return personCell
+            }
         }
         
         return UITableViewCell()
