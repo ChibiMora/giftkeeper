@@ -17,7 +17,7 @@ class GKNavigationController: UINavigationController {
         menuButton = UIButton()
         menuButton.setTitle("+", forState: UIControlState.Normal)
         menuButton.backgroundColor = UIColor.greenColor()
-        menuButton.frame = CGRect(x: 0, y: 0, width: 100, height: 100)
+        menuButton.frame = CGRect(x: 300, y: 600, width: 100, height: 100)
         
 
         self.view.addSubview(menuButton)

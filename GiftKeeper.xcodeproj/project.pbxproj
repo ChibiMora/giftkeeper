@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		F60BEF0A1C8D1210002D5242 /* TempImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F60BEF091C8D1210002D5242 /* TempImages.xcassets */; };
 		F60BEF0D1C8D16F9002D5242 /* MixedGroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60BEF0C1C8D16F9002D5242 /* MixedGroupsViewController.swift */; };
+		F69619CD1CA3434000270748 /* PersonDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69619CC1CA3434000270748 /* PersonDetailViewController.swift */; };
+		F6BA8AFD1CACAD7800851528 /* GiftTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BA8AFC1CACAD7800851528 /* GiftTableViewCell.swift */; };
+		F6BA8B001CACAE2700851528 /* Gift.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BA8AFF1CACAE2700851528 /* Gift.swift */; };
 		F6C170EC1C57EA6000B26829 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C170EB1C57EA6000B26829 /* AppDelegate.swift */; };
 		F6C170F11C57EA6000B26829 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6C170EF1C57EA6000B26829 /* Main.storyboard */; };
 		F6C170F41C57EA6000B26829 /* GiftKeeper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F6C170F21C57EA6000B26829 /* GiftKeeper.xcdatamodeld */; };
@@ -22,6 +25,9 @@
 /* Begin PBXFileReference section */
 		F60BEF091C8D1210002D5242 /* TempImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = TempImages.xcassets; sourceTree = "<group>"; };
 		F60BEF0C1C8D16F9002D5242 /* MixedGroupsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MixedGroupsViewController.swift; sourceTree = "<group>"; };
+		F69619CC1CA3434000270748 /* PersonDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonDetailViewController.swift; sourceTree = "<group>"; };
+		F6BA8AFC1CACAD7800851528 /* GiftTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GiftTableViewCell.swift; sourceTree = "<group>"; };
+		F6BA8AFF1CACAE2700851528 /* Gift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gift.swift; sourceTree = "<group>"; };
 		F6C170E81C57EA6000B26829 /* GiftKeeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GiftKeeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6C170EB1C57EA6000B26829 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6C170F01C57EA6000B26829 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -50,8 +56,17 @@
 			children = (
 				F60BEF0C1C8D16F9002D5242 /* MixedGroupsViewController.swift */,
 				F6DE49921CA2210D00A9ADF6 /* GKNavigationController.swift */,
+				F69619CC1CA3434000270748 /* PersonDetailViewController.swift */,
 			);
 			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F6BA8AFE1CACAD8F00851528 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F6BA8AFF1CACAE2700851528 /* Gift.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 		F6C170DF1C57EA5F00B26829 = {
@@ -73,6 +88,7 @@
 		F6C170EA1C57EA6000B26829 /* GiftKeeper */ = {
 			isa = PBXGroup;
 			children = (
+				F6BA8AFE1CACAD8F00851528 /* Models */,
 				F6DE498F1CA2069900A9ADF6 /* Views */,
 				F60BEF0B1C8D16BB002D5242 /* ViewControllers */,
 				F6C170EB1C57EA6000B26829 /* AppDelegate.swift */,
@@ -91,6 +107,7 @@
 			children = (
 				F6DE498D1CA204D500A9ADF6 /* GroupTableViewCell.swift */,
 				F6DE49901CA216BB00A9ADF6 /* PersonTableViewCell.swift */,
+				F6BA8AFC1CACAD7800851528 /* GiftTableViewCell.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -167,12 +184,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6BA8B001CACAE2700851528 /* Gift.swift in Sources */,
+				F69619CD1CA3434000270748 /* PersonDetailViewController.swift in Sources */,
 				F60BEF0D1C8D16F9002D5242 /* MixedGroupsViewController.swift in Sources */,
 				F6DE49931CA2210D00A9ADF6 /* GKNavigationController.swift in Sources */,
 				F6C170F41C57EA6000B26829 /* GiftKeeper.xcdatamodeld in Sources */,
 				F6C170EC1C57EA6000B26829 /* AppDelegate.swift in Sources */,
 				F6DE49911CA216BB00A9ADF6 /* PersonTableViewCell.swift in Sources */,
 				F6DE498E1CA204D500A9ADF6 /* GroupTableViewCell.swift in Sources */,
+				F6BA8AFD1CACAD7800851528 /* GiftTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
