@@ -9,9 +9,10 @@
 import UIKit
 
 class PersonTableViewCell: UITableViewCell {
-
-   
     @IBOutlet weak var personImage: UIImageView!
     @IBOutlet weak var personLabel: UILabel!
     
+    func setup(person: Person) {
+        personLabel.text = person.name
+    }
 }

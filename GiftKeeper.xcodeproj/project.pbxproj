@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17DA2A991CCF005D008449DF /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DA2A981CCF005D008449DF /* Person.swift */; };
+		17DA2A9B1CCF047F008449DF /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DA2A9A1CCF047F008449DF /* Group.swift */; };
 		F60BEF0A1C8D1210002D5242 /* TempImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F60BEF091C8D1210002D5242 /* TempImages.xcassets */; };
 		F60BEF0D1C8D16F9002D5242 /* MixedGroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60BEF0C1C8D16F9002D5242 /* MixedGroupsViewController.swift */; };
 		F69619CD1CA3434000270748 /* PersonDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69619CC1CA3434000270748 /* PersonDetailViewController.swift */; };
@@ -23,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17DA2A981CCF005D008449DF /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		17DA2A9A1CCF047F008449DF /* Group.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
 		F60BEF091C8D1210002D5242 /* TempImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = TempImages.xcassets; sourceTree = "<group>"; };
 		F60BEF0C1C8D16F9002D5242 /* MixedGroupsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MixedGroupsViewController.swift; sourceTree = "<group>"; };
 		F69619CC1CA3434000270748 /* PersonDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonDetailViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +69,8 @@
 			isa = PBXGroup;
 			children = (
 				F6BA8AFF1CACAE2700851528 /* Gift.swift */,
+				17DA2A981CCF005D008449DF /* Person.swift */,
+				17DA2A9A1CCF047F008449DF /* Group.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -184,6 +190,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17DA2A9B1CCF047F008449DF /* Group.swift in Sources */,
+				17DA2A991CCF005D008449DF /* Person.swift in Sources */,
 				F6BA8B001CACAE2700851528 /* Gift.swift in Sources */,
 				F69619CD1CA3434000270748 /* PersonDetailViewController.swift in Sources */,
 				F60BEF0D1C8D16F9002D5242 /* MixedGroupsViewController.swift in Sources */,

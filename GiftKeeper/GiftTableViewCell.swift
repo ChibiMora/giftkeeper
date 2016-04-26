@@ -13,6 +13,13 @@ class GiftTableViewCell: UITableViewCell {
     @IBOutlet weak var giftImageView: UIImageView!
 
     func setup(gift: Gift) {
-        
+        switch gift.state {
+        case .Idea:
+            giftImageView.image = UIImage(named: "ideaIcon")
+        case .Archived:
+            giftImageView.image = UIImage(named: "archiveIcon")
+        case .Purchased:
+            giftImageView.image = UIImage(named: "giftIcon")
+        }
     }
 }
